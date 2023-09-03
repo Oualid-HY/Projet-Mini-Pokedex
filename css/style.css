@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "Pokemon_Solid";
+    src: url("Pokemon_Solid.ttf") format("truetype");
+}
+
+header p, .rouge {
+    font-size: 0.9rem;
+}
+
+.btn {
+    margin-bottom: 10px;
+    color: white;
+
+}
+
+.btn:hover {
+    background-color: rgb(44, 130, 230);
+    color: white;
+}
+
+
+.col-lg-8 {
+    text-align: center;
+    margin: 0 auto;
+    padding: 1%;
+    border-style: ridge;
+    border-width: 1px;
+    border-color: grey;
+    border-left: none;
+}
+
+.col-lg-4 a:hover {
+    transition: all .3s ease-in-out;
+    transform: scale(.9) rotate(-5deg);
+}
+
+.col-lg-8 img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+}
+
+aside {
+    padding: 1%;
+    border-style: ridge;
+    border-width: 1px;
+    border-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    height: 85vh;
+    overflow-y: auto;
+}
+
+aside img {
+    margin-bottom: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Pokemon_Solid";
+    color: rgb(228, 20, 20);
+    text-shadow: 2px 0 0 rgb(20, 20, 20), 2px 2px 0 black, 0 2px 0 black, -2px 2px 0 black, -2px 0 0 black, -2px -2px 0 black, 0 -2px 0 black, 2px -2px 0 black;
+}
+
+.row {
+    border-style: solid;
+}
+
+img {
+    border: 1px solid black;
+    margin: 3px;
+    padding: 0px;
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+    max-width: 100px;
+    border-radius: 5px;
+}
+
+#maGrandeImage {
+    width: 50%;
+    box-shadow: 0 0 .3125em black;
+}
+
+.rouge {
+    background-color: rgb(228, 20, 20);
+}
+
+@media screen and (max-width: 960px) {
+
+    aside {
+        height: 130px;
+        overflow-y: auto;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+
+        font-size: 1.5rem;
+
+    }
+
+    header p, .rouge {
+        font-size: 0.8rem;
+    }
+
+}
